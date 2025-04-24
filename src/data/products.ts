@@ -42,4 +42,3 @@ export const products: Product[] = [
     ingredients: ["Óleo de Coco", "Vitamina D", "Óleo de Macadâmia"]
   }
 ];
-

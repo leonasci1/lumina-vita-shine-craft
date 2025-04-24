@@ -47,4 +47,3 @@ const ProductCard = ({ product, onPersonalize }: ProductCardProps) => {
 };
 
 export default ProductCard;
-

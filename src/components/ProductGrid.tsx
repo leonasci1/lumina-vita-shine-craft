@@ -22,4 +22,3 @@ const ProductGrid = ({ products, onPersonalize }: ProductGridProps) => {
 };
 
 export default ProductGrid;
-
