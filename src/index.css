@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -43,13 +42,13 @@
   }
 
   body {
-    @apply bg-lumina-beige text-lumina-darkBrown font-sans;
+    @apply bg-lumina-beige text-lumina-darkBrown font-outfit;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-lumina-darkBrown;
+    @apply font-outfit text-lumina-darkBrown;
   }
 }
 
