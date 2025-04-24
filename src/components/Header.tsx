@@ -30,7 +30,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lumina-vita-logo.png" 
+            src="/lovable-uploads/e9f5c5a4-3c81-4f36-aa07-d1c403991542.png" 
             alt="Lumina Vita" 
             className="h-12 md:h-16"
           />
@@ -63,7 +63,7 @@ const Header = () => {
             <Link 
               key={item} 
               to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-              className="font-medium text-lumina-darkBrown hover:text-lumina-green transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-lumina-green after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+              className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-lumina-green after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
               {item}
             </Link>
@@ -82,7 +82,7 @@ const Header = () => {
             <Link 
               key={item} 
               to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-              className="font-medium text-lumina-darkBrown hover:text-lumina-green transition-colors py-1"
+              className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors py-1"
               onClick={() => setMobileMenuOpen(false)}
             >
               {item}

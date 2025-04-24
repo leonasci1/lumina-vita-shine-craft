@@ -130,7 +130,8 @@ export default {
 			fontFamily: {
 				serif: ['Playfair Display', 'Georgia', 'serif'],
 				sans: ['Montserrat', 'sans-serif'],
-				outfit: ['Outfit', 'sans-serif']
+				outfit: ['Outfit', 'sans-serif'],
+        outline: ['Outline', 'sans-serif']
 			}
 		}
 	},
