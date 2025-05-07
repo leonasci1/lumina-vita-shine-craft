@@ -2,44 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from "@/components/ui/card";
-
-const products = [
-  {
-    id: 1,
-    name: 'Shampoo Nutritivo',
-    description: 'Limpeza suave com nutrição intensa para todos os tipos de cabelo.',
-    price: 'R$ 49,90',
-    image: '/placeholder.svg'
-  },
-  {
-    id: 2,
-    name: 'Condicionador Hidratante',
-    description: 'Hidratação profunda que desembaraça e dá brilho aos fios.',
-    price: 'R$ 55,90',
-    image: '/placeholder.svg'
-  },
-  {
-    id: 3,
-    name: 'Máscara Reparadora',
-    description: 'Tratamento semanal para cabelos danificados e sem vida.',
-    price: 'R$ 65,90',
-    image: '/placeholder.svg'
-  },
-  {
-    id: 4,
-    name: 'Óleo Finalizador',
-    description: 'Acabamento sedoso com proteção térmica e controle do frizz.',
-    price: 'R$ 72,90',
-    image: '/placeholder.svg'
-  },
-  {
-    id: 5,
-    name: 'Leave-in Multibenefícios',
-    description: 'Proteção 10-em-1 para cabelos perfeitos todos os dias.',
-    price: 'R$ 59,90',
-    image: '/placeholder.svg'
-  }
-];
+import { products } from '@/data/products';
 
 const ProductCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -78,9 +41,9 @@ const ProductCarousel = () => {
                     </div>
                     <CardContent className="p-5">
                       <h3 className="font-serif font-medium text-xl mb-2">{product.name}</h3>
-                      <p className="text-sm text-lumina-brown mb-3">{product.description}</p>
+                      <p className="text-sm text-lumina-brown mb-3">{product.description.substring(0, 100)}...</p>
                       <div className="flex justify-between items-center">
-                        <span className="font-semibold text-lumina-darkBrown">{product.price}</span>
+                        <span className="font-semibold text-lumina-darkBrown">R$ {product.basePrice.toFixed(2).replace('.', ',')}</span>
                         <button className="text-sm text-lumina-green font-medium hover:underline">
                           Personalizar
                         </button>

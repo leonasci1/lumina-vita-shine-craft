@@ -14,7 +14,7 @@ export const products: Product[] = [
     name: "Shampoo Vitalizante",
     description: "Um shampoo suave enriquecido com proteínas e vitaminas que limpa profundamente sem ressecar. Ideal para todos os tipos de cabelo, sua fórmula exclusiva fortalece os fios desde a primeira aplicação.",
     basePrice: 49.90,
-    image: "/placeholder.svg",
+    image: "/images/product-placeholder.svg",
     ingredients: ["Proteínas de Seda", "Pantenol", "Vitamina E"]
   },
   {
@@ -22,7 +22,7 @@ export const products: Product[] = [
     name: "Condicionador Hidratante",
     description: "Condicionador rico em óleos naturais que restaura a maciez e o brilho dos cabelos. Com fórmula livre de parabenos, deixa os fios sedosos e fáceis de pentear.",
     basePrice: 55.90,
-    image: "/placeholder.svg",
+    image: "/images/product-placeholder.svg",
     ingredients: ["Óleo de Argan", "Queratina", "Aloe Vera"]
   },
   {
@@ -30,7 +30,7 @@ export const products: Product[] = [
     name: "Máscara Reparadora",
     description: "Tratamento intensivo semanal que recupera os fios danificados. Sua fórmula concentrada penetra profundamente na fibra capilar, devolvendo força e vitalidade aos cabelos.",
     basePrice: 65.90,
-    image: "/placeholder.svg",
+    image: "/images/product-placeholder.svg",
     ingredients: ["Colágeno", "Óleos Essenciais", "Proteínas de Trigo"]
   },
   {
@@ -38,7 +38,7 @@ export const products: Product[] = [
     name: "Óleo Capilar Multibenefícios",
     description: "Óleo finalizador que proporciona brilho intenso e proteção térmica. Sua fórmula leve não deixa os fios pesados e protege contra os danos do dia a dia.",
     basePrice: 72.90,
-    image: "/placeholder.svg",
+    image: "/images/product-placeholder.svg",
     ingredients: ["Óleo de Coco", "Vitamina D", "Óleo de Macadâmia"]
   }
 ];
