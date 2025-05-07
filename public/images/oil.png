@@ -1,2 +1,10 @@
 
-<!-- This is a placeholder. The actual image file will be created in the public/images directory -->
+<!-- Oil product image -->
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#F5F5F5"/>
+  <path d="M130 50H170V80H130V50Z" fill="#E1C9A7"/>
+  <path d="M125 80H175L185 100V260C185 270 175 275 165 275H135C125 275 115 270 115 260V100L125 80Z" fill="#E6D4A7"/>
+  <path d="M115 100H185V120H115V100Z" fill="#D1C090"/>
+  <path d="M130 140C125 155 125 175 130 190C135 205 150 220 150 220C150 220 165 205 170 190C175 175 175 155 170 140C165 125 155 130 150 130C145 130 135 125 130 140Z" fill="#D1B061"/>
+  <text x="150" y="180" text-anchor="middle" fill="#333" font-size="16" font-family="Arial">ÓLEO</text>
+</svg>

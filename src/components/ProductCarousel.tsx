@@ -32,11 +32,11 @@ const ProductCarousel = () => {
               {products.map((product) => (
                 <div key={product.id} className="min-w-[280px] sm:min-w-[33.333%] p-4">
                   <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden group">
-                    <div className="overflow-hidden">
+                    <div className="overflow-hidden h-48 flex items-center justify-center bg-lumina-beige/20">
                       <img 
                         src={product.image} 
                         alt={product.name}
-                        className="w-full h-48 object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                        className="h-40 object-contain transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
                     <CardContent className="p-5">
