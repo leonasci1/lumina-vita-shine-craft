@@ -1,0 +1,10 @@
+
+<!-- Conditioner product image -->
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#F5F5F5"/>
+  <path d="M100 50V80H200V50C200 45 196 40 190 40H110C104 40 100 45 100 50Z" fill="#E1C9A7"/>
+  <path d="M95 80H205V260C205 270 195 280 185 280H115C105 280 95 270 95 260V80Z" fill="#E6B0A7"/>
+  <path d="M95 80H205V100H95V80Z" fill="#D19A90"/>
+  <path d="M130 130C125 145 125 165 130 180C135 195 150 210 150 210C150 210 165 195 170 180C175 165 175 145 170 130C165 115 155 120 150 120C145 120 135 115 130 130Z" fill="#E1C9A7"/>
+  <text x="150" y="180" text-anchor="middle" fill="#333" font-size="12" font-family="Arial">CONDICIONADOR</text>
+</svg>
