@@ -3,9 +3,10 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/lumina-vita-shine-craft/', // adicionado para GitHub Pages
+  base: mode === 'production'
+    ? '/lumina-vita-shine-craft/'  // só no build
+    : '/',                          // no dev, use raiz
   server: {
     host: "::",
     port: 8080,
