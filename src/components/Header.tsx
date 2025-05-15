@@ -19,7 +19,7 @@ const Header = () => {
   return <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-lumina-beige/95 shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/lovable-uploads/e9f5c5a4-3c81-4f36-aa07-d1c403991542.png" alt="Lumina Vita" className="h-12 md:h-16 object-fill" />
+          <img src="/ChatGPT_Image_24_de_abr._de_2025__14_54_12-removebg-preview.png" alt="Lumina Vita" className="h-20 md:h-40 object-fill" />
         </Link>
         
         {/* Mobile menu button */}

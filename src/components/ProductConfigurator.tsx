@@ -30,9 +30,9 @@ const activeIngredients: Ingredient[] = [
 ];
 
 const productBases: ProductBase[] = [
-  { id: 'shampoo', name: 'Shampoo Nutritivo', description: 'Base suave para limpeza diária', basePrice: 39.90, image: '/images/shampoo.png' },
-  { id: 'conditioner', name: 'Condicionador Hidratante', description: 'Base cremosa para condicionamento', basePrice: 45.90, image: '/images/conditioner.png' },
-  { id: 'mask', name: 'Máscara de Tratamento', description: 'Base intensiva para tratamentos semanais', basePrice: 55.90, image: '/images/mask.png' },
+  { id: 'shampoo', name: 'Shampoo Nutritivo', description: 'Base suave para limpeza diária', basePrice: 39.90, image: '/public/images/WhatsApp Image 2025-05-08 at 16.27.06 (1).jpeg' },
+  { id: 'conditioner', name: 'Condicionador Hidratante', description: 'Base cremosa para condicionamento', basePrice: 45.90, image: '/images/WhatsApp Image 2025-05-08 at 16.28.47.jpeg' },
+  { id: 'mask', name: 'Máscara de Tratamento', description: 'Base intensiva para tratamentos semanais', basePrice: 55.90, image: '/images/WhatsApp Image 2025-05-08 at 16.30.32.jpeg' },
 ];
 
 const ProductConfigurator = () => {

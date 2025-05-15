@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-lumina-green/20 rounded-full blur-xl"></div>
               <img 
-                src="/placeholder.svg" 
+                src="/images/ChatGPT Image 7 de mai. de 2025, 18_39_48.png" 
                 alt="Produto Lumina Vita" 
                 className="relative z-10 max-w-xs md:max-w-md rounded-xl transform rotate-3"
               />

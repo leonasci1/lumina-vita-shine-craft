@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { type Product } from '@/data/products';
 
 type ProductCardProps = {
@@ -10,8 +10,8 @@ const ProductCard = ({ product, onPersonalize }: ProductCardProps) => {
   return (
     <div className="card group relative">
       <div className="overflow-hidden rounded-t-lg">
-        <img 
-          src={product.image} 
+        <img
+          src={product.image}
           alt={product.name}
           className="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-105"
         />
@@ -22,7 +22,7 @@ const ProductCard = ({ product, onPersonalize }: ProductCardProps) => {
         <div className="space-y-2">
           <h4 className="font-outfit text-sm font-medium">Ingredientes principais:</h4>
           <ul className="text-sm text-lumina-brown space-y-1">
-            {product.ingredients.map((ingredient, index) => (
+            {(product.ingredients ?? []).map((ingredient, index) => (
               <li key={index} className="flex items-center gap-2">
                 <span className="text-lumina-green">•</span>
                 {ingredient}
@@ -34,7 +34,7 @@ const ProductCard = ({ product, onPersonalize }: ProductCardProps) => {
           <span className="font-outfit font-medium text-lg">
             R$ {product.basePrice.toFixed(2)}
           </span>
-          <button 
+          <button
             className="btn-primary text-sm"
             onClick={onPersonalize}
           >

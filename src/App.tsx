@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import { ProductProvider } from "./context/ProductContext";
 import About from "./pages/About";
 import Roadmap from "./components/Roadmap";
+import Contato from "./pages/contato";
 
 const queryClient = new QueryClient();
 
@@ -24,7 +25,8 @@ const App = () => (
             <Route path="/produtos" element={<Products />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/roadmap" element={<Roadmap />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/contato" element={<Contato />} />
+            
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
