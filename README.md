@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# Lumina Vita 🌿
 
-## Project info
+Bem-vindo ao repositório do **Lumina Vita**, uma plataforma dedicada a produtos naturais e sustentáveis para cuidados pessoais. Este projeto foi desenvolvido para oferecer uma experiência única e intuitiva para os usuários, destacando produtos de alta qualidade que promovem saúde e bem-estar.
 
-**URL**: https://lovable.dev/projects/fdb16e76-ad35-44df-b95d-0d500c2abea1
+---
 
-## How can I edit this code?
+## 🚀 Funcionalidades
 
-There are several ways of editing your application.
+- **Catálogo de Produtos**: Exibição de produtos com imagens, descrições e preços.
+- **Carrossel Responsivo**: Destaque para produtos em um carrossel dinâmico e adaptável a diferentes tamanhos de tela.
+- **Personalização de Produtos**: Opção para personalizar produtos diretamente na plataforma.
+- **Design Moderno**: Interface elegante e intuitiva, com foco na experiência do usuário.
+- **Sustentabilidade**: Produtos e mensagens alinhados com práticas sustentáveis.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fdb16e76-ad35-44df-b95d-0d500c2abea1) and start prompting.
+## 🛠️ Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, TailwindCSS
+- **Roteamento**: React Router
+- **Build Tool**: Vite
+- **Gerenciamento de Estado**: React Hooks
+- **Backend (opcional)**: Integração futura com APIs para gerenciamento de produtos e pedidos.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Estrutura do Projeto
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```plaintext
+lumina-vita-shine-craft/
+├── public/                # Arquivos públicos (imagens, favicon, etc.)
+├── src/
+│   ├── components/        # Componentes reutilizáveis (ex.: ProductCarousel)
+│   ├── data/              # Dados estáticos (ex.: products.ts)
+│   ├── pages/             # Páginas principais do site
+│   ├── styles/            # Estilos globais e configurações do TailwindCSS
+│   └── App.tsx            # Componente principal do aplicativo
+├── [README.md](http://_vscodecontentref_/1)              # Documentação do projeto
+├── [package.json](http://_vscodecontentref_/2)           # Dependências e scripts do projeto
+└── [tsconfig.json](http://_vscodecontentref_/3)          # Configuração do TypeScript
+📝 Licença
+Este projeto está licenciado sob a MIT License.
 
-Follow these steps:
+📧 Contato
+Se tiver dúvidas ou sugestões, entre em contato:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fdb16e76-ad35-44df-b95d-0d500c2abea1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+E-mail: contato@luminavita.com
+Site: www.luminavita.com
+Instagram: @luminavita
