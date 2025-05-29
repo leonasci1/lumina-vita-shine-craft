@@ -31,7 +31,7 @@ const Header = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          {['Home', 'Produtos', 'Roadmap', 'Sobre', 'Contato'].map(item => <Link key={item} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-lumina-green after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+          {['Home', 'Produtos', 'Roadmap', 'Sobre', 'Contato', 'Certificados'].map(item => <Link key={item} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-lumina-green after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
               {item}
             </Link>)}
         </nav>
@@ -40,7 +40,7 @@ const Header = () => {
       {/* Mobile Navigation */}
       <div className={`md:hidden absolute w-full bg-lumina-beige shadow-lg transition-all duration-300 ${mobileMenuOpen ? 'max-h-60 py-4' : 'max-h-0 overflow-hidden'}`}>
         <nav className="flex flex-col space-y-4 px-4">
-          {['Home', 'Produtos', 'Roadmap', 'Sobre', 'Contato'].map(item => <Link key={item} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors py-1" onClick={() => setMobileMenuOpen(false)}>
+          {['Home', 'Produtos', 'Roadmap', 'Sobre', 'Contato', 'Certificados'].map(item => <Link key={item} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="font-outline text-lg text-lumina-darkBrown hover:text-lumina-green transition-colors py-1" onClick={() => setMobileMenuOpen(false)}>
               {item}
             </Link>)}
         </nav>

@@ -10,6 +10,7 @@ import { ProductProvider } from "./context/ProductContext";
 import About from "./pages/About";
 import Roadmap from "./components/Roadmap";
 import Contato from "./pages/contato";
+import Certificacao from "./pages/Certificaçao";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/sobre" element={<About />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/certificados" element={<Certificacao />} />
             
           </Routes>
         </BrowserRouter>
