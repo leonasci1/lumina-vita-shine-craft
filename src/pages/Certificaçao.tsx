@@ -37,7 +37,7 @@ const Certificacao: React.FC = () => {
               </div>
             </Worker>
             <a
-              href="//pdfs/CONTRATO_SOCIAL.pdf"
+              href="/pdfs/CONTRATO_SOCIAL.pdf"
               download
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
