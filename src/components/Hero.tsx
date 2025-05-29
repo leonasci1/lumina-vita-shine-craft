@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-lumina-green/20 rounded-full blur-xl"></div>
               <video 
-              src="public\videos\Vídeo_Lumina_Vita_Gerado.mp4"
+              src="/videos/Vídeo_Lumina_Vita_Gerado.mp4"
               autoPlay 
               loop 
               muted

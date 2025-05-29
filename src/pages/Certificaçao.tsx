@@ -18,7 +18,7 @@ const Certificacao: React.FC = () => {
           {/* Certificação Orgânica */}
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <img
-              src="public\images\Gemini_Generated_Image_cpi7gucpi7gucpi7.png"
+              src="/images/Gemini_Generated_Image_cpi7gucpi7gucpi7.png"
               alt="Certificação Orgânica"
               className="w-20 h-20 mx-auto mb-4"
             />
@@ -33,11 +33,11 @@ const Certificacao: React.FC = () => {
             <h3 className="text-lg font-semibold text-lumina-darkBrown">Contrato Social</h3>
             <Worker workerUrl={PDF_WORKER_URL}>
               <div className="h-96 overflow-hidden border">
-                <Viewer fileUrl="public\pdfs\CONTRATO_SOCIAL.pdf" />
+                <Viewer fileUrl="/pdfs/Licença_Bombeiros.pdf" />
               </div>
             </Worker>
             <a
-              href="public\pdfs\CONTRATO_SOCIAL.pdf"
+              href="/pdfs/Licença_Bombeiros.pdf"
               download
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
@@ -50,11 +50,11 @@ const Certificacao: React.FC = () => {
             <h3 className="text-lg font-semibold text-lumina-darkBrown">Licença ANVISA</h3>
             <Worker workerUrl={PDF_WORKER_URL}>
               <div className="h-96 overflow-hidden border">
-                <Viewer fileUrl="public\pdfs\LiCENÇA _ANVISA.pdf" />
+                <Viewer fileUrl="/pdfs/LiCENÇA _ANVISA.pdf" />
               </div>
             </Worker>
             <a
-              href="public\pdfs\LiCENÇA _ANVISA.pdf"
+              href="/pdfs/LiCENÇA _ANVISA.pdf"
               download
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
@@ -84,11 +84,11 @@ const Certificacao: React.FC = () => {
             <h3 className="text-lg font-semibold text-lumina-darkBrown">Licença dos Bombeiros</h3>
             <Worker workerUrl={PDF_WORKER_URL}>
               <div className="h-96 overflow-hidden border">
-                <Viewer fileUrl="public\pdfs\Licença_Bombeiros.pdf" />
+                <Viewer fileUrl="/pdfs/Licença_Bombeiros.pdf" />
               </div>
             </Worker>
             <a
-              href="public\pdfs\Licença_Bombeiros.pdf"
+              href="/pdfs/Licença_Bombeiros.pdf"
               download
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
