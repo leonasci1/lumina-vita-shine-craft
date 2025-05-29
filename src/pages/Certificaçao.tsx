@@ -33,11 +33,11 @@ const Certificacao: React.FC = () => {
             <h3 className="text-lg font-semibold text-lumina-darkBrown">Contrato Social</h3>
             <Worker workerUrl={PDF_WORKER_URL}>
               <div className="h-96 overflow-hidden border">
-                <Viewer fileUrl="/pdfs/Licença_Bombeiros.pdf" />
+                <Viewer fileUrl="/pdfs/CONTRATO_SOCIAL.pdf" />
               </div>
             </Worker>
             <a
-              href="/pdfs/Licença_Bombeiros.pdf"
+              href="//pdfs/CONTRATO_SOCIAL.pdf"
               download
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
@@ -76,6 +76,22 @@ const Certificacao: React.FC = () => {
               className="text-lumina-green font-medium hover:underline mt-4 block"
             >
               Baixar Alvará de Funcionamento
+            </a>
+          </div>
+          {/* Visualizador de PDF - Alvará de Funcionamento */}
+          <div className="bg-white shadow-md rounded-lg p-6 text-center">
+            <h3 className="text-lg font-semibold text-lumina-darkBrown">Comprovante de Situação Cadastral</h3>
+            <Worker workerUrl={PDF_WORKER_URL}>
+              <div className="h-96 overflow-hidden border">
+                <Viewer fileUrl="/pdfs/ComprovantedeSituacaoCadastral.pdf" />
+              </div>
+            </Worker>
+            <a
+              href="/pdfs/ComprovantedeSituacaoCadastral.pdf"
+              download
+              className="text-lumina-green font-medium hover:underline mt-4 block"
+            >
+              Baixar Comprovante de Situação Cadastral
             </a>
           </div>
 
